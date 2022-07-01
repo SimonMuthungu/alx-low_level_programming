@@ -1,28 +1,29 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - main block
- * Description: prints all single digit numbers of base 10
- * starting from 0, followed by a new line.
- * Return: 0
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
-int i = 0;
-int j = 0;
-for (i = 0; i < 10; i++)
-{
-for (j = i + 1; j < 10; j++)
-{
-putchar(48 + i);
-putchar(48 + j);
-if (j != 9 && i != 8)
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
-putchar ('\n');
-return (0);
+	int n, m;
+
+	for (n = 48; n <= 56; n++)
+	{
+		for (m = 49; m <= 57; m++)
+		{
+			if (m > n)
+			{
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
