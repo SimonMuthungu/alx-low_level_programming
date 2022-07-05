@@ -7,6 +7,7 @@
  */
 
 void print_alphabet_x10(void);
+{
 
 int count = 10;
 
@@ -18,4 +19,5 @@ _printchar(i);
 count = count - 1;
 }
 _printchar('\n');
+}
 }
