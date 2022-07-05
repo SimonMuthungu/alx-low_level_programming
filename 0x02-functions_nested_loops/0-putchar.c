@@ -4,9 +4,8 @@
 /**
  * main - Entry point
  *
- * prints _putchar at the stdoutput
  *
- * Return 0
+ * Return: 0 (always success)
  */
 
 int main(void)
