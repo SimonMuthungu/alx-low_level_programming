@@ -6,7 +6,7 @@
 *Return: 0 (Always success)
 */
 
-void _isalpha(int c)
+int _isalpha(char c)
 {
 char i,d;
 for (i = 'a'; i <= 'z'; i++)
@@ -16,6 +16,7 @@ for (i = 'a'; i <= 'z'; i++)
   if (c == i || c == d)
   {
     return (1);
+  }
   else
   {
     return (0);
