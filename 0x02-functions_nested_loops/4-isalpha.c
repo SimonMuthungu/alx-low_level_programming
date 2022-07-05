@@ -6,21 +6,14 @@
 *Return: 0 (Always success)
 */
 
-int _isalpha(char c)
+int _isalpha(int c)
 {
-char i,d;
-for (i = 'a'; i <= 'z'; i++)
-{
-  for (d = 'A'; d <= 'Z'; d++)
-  {
-  if (c == i || c == d)
+  if (c > 'a' && c < 'z' || c > 'A' && c < 'Z')
   {
     return (1);
   }
   else
   {
     return (0);
-  }
-  }
   }
 }
