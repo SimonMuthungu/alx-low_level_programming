@@ -1,7 +1,7 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - checks for lower case
+ * @c - checks for lowercase
  *
  * Return: Always zero
  */
