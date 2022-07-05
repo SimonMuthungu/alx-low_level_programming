@@ -3,7 +3,7 @@
 /**
  * main - print 10x the alphabet
  *
- * print_alphabet_x10 : prints 10 times
+ * print_alphabet_x10 - print alphabets "a..z"
  *
  * return: 0
  */
