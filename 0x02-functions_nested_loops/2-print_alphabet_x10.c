@@ -17,8 +17,8 @@ while (count > 0)
 for (i = 'a'; i <= 'z'; i++)
 {
 _putchar(i);
-count = count - 1;
+count--;
+}
 }
 _putchar('\n');
-}
 }
