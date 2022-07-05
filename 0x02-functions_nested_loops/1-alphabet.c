@@ -1,19 +1,18 @@
-#include "main.h" /**main file header*/
+#include "main.h"
 
 /**
- * main- calls a function
+ * print_alphabet - print alphabet lowercase
  *
- * Return 0
- *
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-int i;
-	
-for (i = 'a'; i <= 'z'; i++);
+char alphabet;
+
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-_putchar(i);
+_putchar(alphabet);
 }
 
 _putchar('\n');
