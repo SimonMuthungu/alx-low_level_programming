@@ -1,4 +1,4 @@
-#include "main.h" /*main file header*/
+#include "main.h" /**main file header*/
 
 /**
  * main- calls a function
@@ -15,6 +15,5 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
