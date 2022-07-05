@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_isalpha() checks for alpha
+*_isalpha: checks for alpha chars
 *
 *@c: int type
 *Return: 0 (Always success)
