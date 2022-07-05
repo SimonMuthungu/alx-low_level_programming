@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - print 10x the alphabet
@@ -8,10 +8,13 @@
 
 void print_alphabet_x10(void);
 
-int main(void)
-{
-	print_alphabet_x10();
-	_putchar('\n');
+int count = 10;
 
-	return (0);
+while (count > 0)
+{
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_printchar(i);
+	}
+_printchar('\n');
 }
