@@ -15,6 +15,7 @@ while (count > 0)
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		_printchar(i);
+		count = count - 1;
 	}
 _printchar('\n');
 }
