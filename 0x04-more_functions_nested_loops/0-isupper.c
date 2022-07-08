@@ -1,6 +1,6 @@
-#include "main.h"
-
-/**
+/**_isupper checks for upper letters
+*
+*return: 1 if its upper and 0 otherwise
 *
 */
 
