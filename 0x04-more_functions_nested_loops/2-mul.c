@@ -2,7 +2,6 @@
 
 /**
 *mul multiplies the two args
-*
 *@a: int a
 *@b: int b
 *return: ans
