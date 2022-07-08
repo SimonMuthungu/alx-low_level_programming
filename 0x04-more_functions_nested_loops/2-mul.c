@@ -1,4 +1,4 @@
-int mul(int a, int c)
+int mul(int a, int b)
 {
-  return (a * c)
+  return (a * b)
 }
