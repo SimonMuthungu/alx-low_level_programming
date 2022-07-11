@@ -1,8 +1,10 @@
-#include "main.io"
+#include "main.h"
 /**
- * main - updates value to 98
+ * main - updates value to 98 and returns
  *
- * return: 0 (always success)
+ * @n: is a pointer to int type
+ *
+ * Return: 0 => (always success)
  */
 
 int main(int *n)
