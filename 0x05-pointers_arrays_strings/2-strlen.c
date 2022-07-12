@@ -9,5 +9,11 @@
  */
 void _strlen(char *s)
 {
-	strlen(s);
+	int count = 0;
+
+	while (*s++)
+	{
+		count += 1;
+	}
+	return count;
 }
