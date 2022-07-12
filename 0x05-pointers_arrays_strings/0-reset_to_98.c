@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - updates value to 98 and returns
+ * reset_to_98 - updates value to 98 and returns
  *
  * @n: is a pointer to int type
  *
