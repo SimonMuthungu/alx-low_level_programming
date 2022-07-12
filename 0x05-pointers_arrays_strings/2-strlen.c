@@ -2,12 +2,13 @@
 #include <stdio.h>
 
  /**
- * _strlen - returns length of char
+ * _strlen - returns length of s
  *
  * @s: the string whose length to find
  *
+ *return: string length
  */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int count = 0;
 
