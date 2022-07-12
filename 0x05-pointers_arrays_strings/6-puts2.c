@@ -13,5 +13,6 @@ void puts2(char *str)
 	while (s != '\0')
 	{
 		_putschar(s);
+		s++
 	}
 }
