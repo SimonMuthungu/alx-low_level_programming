@@ -1,27 +1,20 @@
 #include "main.h"
+
 /**
  * _strcmp - compares two strings
- * @s1: str 1
- * @s2: str 2
- * Return: 15
  *
+ * @s1: str
+ * @s2: str
+ * Return: stuff
  */
+
 int _strcmp(char *s1, char *s2)
 {
-	int size1 = s1::size;
+	int i = 0;
 
-	int size2 = s2::size;
-
-	if (size1 > size2)
+	while ((s1[i] == s2[i]) && (s1[i] != '\0'))
 	{
-		return (15);
+		i++;
 	}
-	else if (size1 == size2)
-	{
-		return (0);
-	}
-	else
-	{
-		return (-15);
-	}
+	return (s1[i] - s2[i]);
 }
