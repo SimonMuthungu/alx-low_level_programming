@@ -1,27 +1,31 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * _strncat - concats two chars
- *
- *  @dest: string one
- *  @src: string two
- *  @int: integer n
+ * _strncat - concatenates two strings
+ * @src: chra
+ * @dest: char
+ * @n: int
+ * Return: stuff
  */
-int _strncat(char *dest, char *src, int n)
+
+char *_strncat(char *dest, char *src, int n)
 {
-	int length = src::size;
-	
-	if (n > length)
+	int i = 0;
+	int j = 0;
+
+	while (dest[i] != '\0')
 	{
-		newstr = src;
-	} 
-	else
-	{
-		for (i = 0;i <= n-1;i++)
-		{
-			newstr = src[i];
-		}
+		i++;
 	}
-	*dest = dest, newstr;
+
+	while (j < n && src[j] != '\0')
+	{
+		dest[i] += src[j];
+		i++;
+		j++;
+	}
+
+	dest += '\0';
+
 	return (dest);
 }
