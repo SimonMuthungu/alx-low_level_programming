@@ -2,16 +2,16 @@
 /**
  * _puts_recursion - a recursion method
  * @s: the char to be printed
- * return (1): not success
  */
-void _puts_recursion(char *s)
+int _puts_recursion(char *s)
 {
-	int i = 0;
-
-	_putchar(s[i]);
-
+	if (*s == '\0')
 	{
-		return (1);
+		_putchar('\n');
 	}
-	_puts_recursion(s[i + 1]);
+	else
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
 }
