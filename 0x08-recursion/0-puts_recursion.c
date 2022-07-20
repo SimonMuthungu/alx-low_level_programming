@@ -14,8 +14,3 @@ int _puts_recursion(char *s)
 	}
 	_puts_recursion(s[i+1]);
 }
-int main(void)
-{
-	_puts_recursion("Puts with");
-	return (0);
-}
